@@ -87,12 +87,12 @@ docker exec -it express-gateway sh
 eg users create
 
 6. assign auth key
-eg credentials create -c sebas -t key-auth -q
+eg credentials create -c jhorman -t key-auth -q
 
-7. copy key 3DvE2HCfZCyfgxAjF40tOk:2U4Cojm11JaPJF6WRUcFBL
+7. copy key 1rg6CXDfZB73dWM7posncN:1o1LpzOHedAOmxNGmxV22p
 
-8. Curl API endpoint as Sebas  with key credentials - SUCCESS!
+8. Curl API endpoint as jhorman  with key credentials - SUCCESS!
 
 curl -H "Authorization: apiKey ${keyId}:${keySecret}" http://localhost:8080/config/app-pay/dev
 
-curl -H "Authorization: apiKey 3DvE2HCfZCyfgxAjF40tOk:2U4Cojm11JaPJF6WRUcFBL" http://localhost:8080/config/app-pay/dev
+curl -H "Authorization: apiKey 2dkTtm4J9GS8npMrwtotrN:5eROF8ce6J2PdKc7oVn8Br" http://localhost:8080/config/app-pay/dev
